@@ -1,0 +1,9 @@
+10-29 08:59 INFO     Tests.py:20  : [CP2] Executing tests for checkpoint 2.
+10-29 08:59 INFO     ParseUpdates.py:29  : Time taken to parse all records: 7 second(s)
+10-29 08:59 INFO     ParseUpdates.py:30  : Routes announced: 74851 | Routes withdrawn: 8393
+10-29 08:59 INFO     Tests.py:51  : [CP2] No more updates to process in file: ./data/updates.20080219.0015.bz2
+10-29 08:59 INFO     RoutingTable.py:149 : Earliest update seen: 1203380111, 	 Latest update seen: 1203381004
+Total updates received: 83244, 	 Total number of path changes observed: 2448
+Total number of routing table entries currently in table: 6217
+Reachable addresses of the IPv4 space from current table: 52632071
+10-29 08:59 INFO     Tests.py:23  : [CP2] Tests for checkpoint 2 complete. Verify that your results match the sample output log file.

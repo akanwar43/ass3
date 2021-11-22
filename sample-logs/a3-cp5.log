@@ -1,0 +1,22 @@
+10-29 09:03 INFO     Tests.py:20  : [CP5] Executing tests for checkpoint 5.
+10-29 09:03 INFO     ParseUpdates.py:29  : Time taken to parse all records: 8 second(s)
+10-29 09:03 INFO     ParseUpdates.py:30  : Routes announced: 74851 | Routes withdrawn: 8393
+10-29 09:03 INFO     Tests.py:51  : [CP2] No more updates to process in file: ./data/updates.20080219.0015.bz2
+10-29 09:03 INFO     RoutingTable.py:150 : Earliest update seen: 1203380111, 	 Latest update seen: 1203381004
+Total updates received: 83244, 	 Total number of path changes observed: 2448
+Total number of routing table entries currently in table: 6217
+Reachable addresses of the IPv4 space from current table: 52632071
+10-29 09:03 INFO     RoutingTable.py:150 : Earliest update seen: 1203380111, 	 Latest update seen: 1203381004
+Total updates received: 83244, 	 Total number of path changes observed: 2448
+Total number of routing table entries currently in table: 6217
+Reachable addresses of the IPv4 space from current table: 52632071
+10-29 09:04 INFO     RoutingTable.py:136 : Time taken for compression: 50 seconds. Space savings: 38.00%
+10-29 09:04 INFO     RoutingTable.py:150 : Earliest update seen: 1203380111, 	 Latest update seen: 1203381004
+Total updates received: 83244, 	 Total number of path changes observed: 2448
+Total number of routing table entries currently in table: 3803
+Reachable addresses of the IPv4 space from current table: 52632071
+10-29 09:04 INFO     RoutingTable.py:83  : Seeking paths to destination: 8.8.8.8
+10-29 09:04 INFO     RoutingTable.py:83  : Seeking paths to destination: 125.161.0.1
+10-29 09:04 INFO     RoutingTable.py:94  : Available paths found to destination 125.161.0.1
+10-29 09:04 INFO     RoutingTable.py:95  : [{'prefix_len': 14, 'next_hop': '134.222.87.3', 'as_path': ['286', '3491', '24399', '7713', '17974'], 'source_as': '286'}]
+10-29 09:04 INFO     Tests.py:23  : [CP5] Tests for checkpoint 5 complete. Verify that your results match the sample output log file.

@@ -1,0 +1,164 @@
+DICTIONARY STRUCTURE
+([
+   ("timestamp",
+   [
+      1203380111, "2008-02-18 18:15:11"
+   ]"
+   )"
+   ,
+   
+   "(""type",
+   [
+      16,
+      "BGP4MP"
+   ]"
+   )"
+   ,
+   "(""subtype",
+   [
+      1,
+      "BGP4MP_MESSAGE"
+   ]"
+   )"
+   ,
+   "
+   ("length",75)
+   ,
+   "(""peer_as","2497"")",
+   "(""local_as",
+   "6447"")",
+   "(""ifindex",
+   0),
+   "(""afi",
+   [
+      1,
+      "IPv4"
+   ]")",
+   "(""peer_ip",
+   "202.232.0.3"")",
+   "(""local_ip",
+   "128.223.51.102"")",
+   "(""bgp_message",
+   "OrderedDict("[
+      "(""marker",
+      "ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff"")",
+      "(""length",
+      59),
+      "(""type",
+      [
+         2,
+         "UPDATE"
+      ]")",
+      "(""withdrawn_routes_length",
+      0),
+      "(""withdrawn_routes",
+      [
+         
+      ]")",
+      "(""path_attribute_length",
+      32),
+      "(""path_attributes",
+      [
+         "OrderedDict("[
+            "(""flag",
+            64),
+            "(""type",
+            [
+               1,
+               "ORIGIN"
+            ]")",
+            "(""length",
+            1),
+            "(""value",
+            0)
+         ]")",
+         "OrderedDict("[
+            "(""flag",
+            64),
+            "(""type",
+            [
+               2,
+               "AS_PATH"
+            ]")",
+            "(""length",
+            18),
+            "(""value",
+            [
+               "OrderedDict("[
+                  "(""type",
+                  [
+                     2,
+                     "AS_SEQUENCE"
+                  ]")",
+                  "(""length",
+                  8),
+                  "(""value",
+                  [
+                     "2497",
+                     "2914",
+                     "1239",
+                     "18895",
+                     "18895",
+                     "18895",
+                     "18895",
+                     "18895"
+                  ]")"
+               ]")"
+            ]")"
+         ]")",
+         "OrderedDict("[
+            "(""flag",
+            64),
+            "(""type",
+            [
+               3,
+               "NEXT_HOP"
+            ]")",
+            "(""length",
+            4),
+            "(""value",
+            "202.232.0.3"")"
+         ]")"
+      ]")",
+      "(""nlri",
+      [
+         "OrderedDict("[
+            "(""prefix_length",
+            24),
+            "(""prefix",
+            "207.150.249.0"")"
+         ]")"
+      ]")"
+   ]"))"
+])
+
+
+
+ITEMES IN BGP
+marker
+
+
+length
+
+
+type
+
+
+withdrawn_routes_length
+
+
+withdrawn_routes
+
+
+path_attribute_length
+
+
+path_attributes
+OrderedDict([('flag', 64), ('type', [1, 'ORIGIN']), ('length', 1), ('value', 2)])
+OrderedDict([('flag', 64), ('type', [2, 'AS_PATH']), ('length', 8), ('value', [OrderedDict([('type', [2, 'AS_SEQUENCE']), ('length', 3), ('value', ['293', '2914', '9498'])])])])
+OrderedDict([('flag', 64), ('type'[3, 'NEXT_HOP']), ('length, ', 4), ('value', '134.55.200.31')])
+OrderedDict([('flag', 192), ('type', [8, 'COMMUNITY']), ('length', 8), ('value', ['293:14', '293:46'])])
+
+
+
+nlri

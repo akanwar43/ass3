@@ -1,0 +1,172 @@
+10-29 09:06 INFO     Tests.py:20  : [CP6] Executing tests for checkpoint 6.
+10-29 09:06 INFO     DetectHijacks.py:76  : Building ASN to Org dictionary
+10-29 09:06 INFO     DetectHijacks.py:84  : ASN to Org dictionary built. 106197 mappings found
+10-29 09:06 INFO     ParseUpdates.py:29  : Time taken to parse all records: 7 second(s)
+10-29 09:06 INFO     ParseUpdates.py:30  : Routes announced: 74851 | Routes withdrawn: 8393
+10-29 09:06 INFO     Tests.py:51  : [CP2] No more updates to process in file: ./data/updates.20080219.0015.bz2
+10-29 09:06 INFO     RoutingTable.py:150 : Earliest update seen: 1203380111, 	 Latest update seen: 1203381004
+Total updates received: 83244, 	 Total number of path changes observed: 2448
+Total number of routing table entries currently in table: 6217
+Reachable addresses of the IPv4 space from current table: 52632071
+10-29 09:06 INFO     RoutingTable.py:150 : Earliest update seen: 1203380111, 	 Latest update seen: 1203381004
+Total updates received: 83244, 	 Total number of path changes observed: 2448
+Total number of routing table entries currently in table: 6217
+Reachable addresses of the IPv4 space from current table: 52632071
+10-29 09:07 INFO     RoutingTable.py:136 : Time taken for compression: 55 seconds. Space savings: 38.00%
+10-29 09:07 INFO     RoutingTable.py:150 : Earliest update seen: 1203380111, 	 Latest update seen: 1203381004
+Total updates received: 83244, 	 Total number of path changes observed: 2448
+Total number of routing table entries currently in table: 3803
+Reachable addresses of the IPv4 space from current table: 52632071
+10-29 09:07 INFO     RoutingTable.py:83  : Seeking paths to destination: 8.8.8.8
+10-29 09:07 INFO     RoutingTable.py:83  : Seeking paths to destination: 125.161.0.1
+10-29 09:07 INFO     RoutingTable.py:94  : Available paths found to destination 125.161.0.1
+10-29 09:07 INFO     RoutingTable.py:95  : [{'prefix_len': 14, 'next_hop': '134.222.87.3', 'as_path': ['286', '3491', '24399', '7713', '17974'], 'source_as': '286'}]
+10-29 09:07 INFO     DetectHijacks.py:57  : Updating routing table from file: ./data/updates.20080222.0208.bz2 (1 of 6)
+10-29 09:07 INFO     ParseUpdates.py:29  : Time taken to parse all records: 10 second(s)
+10-29 09:07 INFO     ParseUpdates.py:30  : Routes announced: 99326 | Routes withdrawn: 8041
+10-29 09:07 INFO     DetectHijacks.py:33  : [@t=2008-02-21 | 20:22:52] First announcement for destination: 208.65.152.0/22 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-21 | 20:23:00] Suspicious announcement for destination: 208.65.156.0/22. Expected destination AS: 36561 (YOUTUBE), but observed AS: 35937 (ZCOLO-LAS01) instead
+10-29 09:07 INFO     DetectHijacks.py:57  : Updating routing table from file: ./data/updates.20080224.1839.bz2 (2 of 6)
+10-29 09:07 INFO     ParseUpdates.py:29  : Time taken to parse all records: 5 second(s)
+10-29 09:07 INFO     ParseUpdates.py:30  : Routes announced: 37978 | Routes withdrawn: 5569
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:47:57] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:47:57] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:47:57] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:47:57] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:47:57] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:47:58] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:47:58] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:47:59] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:00] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:01] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:03] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:03] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:03] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:04] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:04] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:05] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:06] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:06] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:06] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:07] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:07] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:08] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:08] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:08] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:08] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:09] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:09] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:09] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:10] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:10] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:11] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:22] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:22] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:22] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:22] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:22] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:24] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:25] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:25] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:26] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:29] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:30] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:30] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:33] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:33] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:35] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:36] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:36] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:37] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:43] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:43] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:45] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:46] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:48] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:50] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:52] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:54] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:48:56] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 12:49:21] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:57  : Updating routing table from file: ./data/updates.20080224.2009.bz2 (3 of 6)
+10-29 09:07 INFO     ParseUpdates.py:29  : Time taken to parse all records: 6 second(s)
+10-29 09:07 INFO     ParseUpdates.py:30  : Routes announced: 52283 | Routes withdrawn: 6208
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:18:43] Announcement for destination: 208.65.153.128/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:18:43] Announcement for destination: 208.65.153.0/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:18:55] Announcement for destination: 208.65.153.128/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:18:55] Announcement for destination: 208.65.153.0/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:19:06] Announcement for destination: 208.65.153.128/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:19:06] Announcement for destination: 208.65.153.0/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:19:21] Announcement for destination: 208.65.153.0/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:19:21] Announcement for destination: 208.65.153.128/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:19:21] Announcement for destination: 208.65.153.128/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:19:21] Announcement for destination: 208.65.153.0/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:57  : Updating routing table from file: ./data/updates.20080224.2026.bz2 (4 of 6)
+10-29 09:07 INFO     ParseUpdates.py:29  : Time taken to parse all records: 7 second(s)
+10-29 09:07 INFO     ParseUpdates.py:30  : Routes announced: 50489 | Routes withdrawn: 7633
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:28:18] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:28:18] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:28:18] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:28:23] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:28:36] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:28:39] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:28:42] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:28:47] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:29:49] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:29:55] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:30:19] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:30:20] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:30:21] Announcement for destination: 208.65.153.128/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:30:21] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:30:21] Announcement for destination: 208.65.153.0/25 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:32:48] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:57  : Updating routing table from file: ./data/updates.20080224.2041.bz2 (5 of 6)
+10-29 09:07 INFO     ParseUpdates.py:29  : Time taken to parse all records: 6 second(s)
+10-29 09:07 INFO     ParseUpdates.py:30  : Routes announced: 47589 | Routes withdrawn: 5803
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:51:31] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 14:51:36] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 14:51:50] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:52:02] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:52:04] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:52:06] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 14:52:18] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 14:52:19] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:52:22] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 14:52:25] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 14:52:28] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 14:52:29] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 14:52:34] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 14:52:36] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 14:52:36] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:52:36] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:52:37] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:52:59] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:07 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 14:52:59] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:07 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 14:53:04] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:08 INFO     DetectHijacks.py:57  : Updating routing table from file: ./data/updates.20080224.2056.bz2 (6 of 6)
+10-29 09:08 INFO     ParseUpdates.py:29  : Time taken to parse all records: 7 second(s)
+10-29 09:08 INFO     ParseUpdates.py:30  : Routes announced: 70870 | Routes withdrawn: 8661
+10-29 09:08 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 15:00:18] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:08 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 15:00:30] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:08 INFO     DetectHijacks.py:45  : [@t=2008-02-24 | 15:00:49] Suspicious announcement for destination: 208.65.153.0/24. Expected destination AS: 36561 (YOUTUBE), but observed AS: 17557 (PKTELECOM-AS-PK) instead
+10-29 09:08 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 15:01:22] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:08 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 15:01:22] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:08 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 15:01:34] Announcement for destination: 208.65.153.0/24 (AS: 36561, YOUTUBE)
+10-29 09:08 INFO     DetectHijacks.py:37  : [@t=2008-02-24 | 15:06:52] Announcement for destination: 208.65.152.0/22 (AS: 36561, YOUTUBE)
+10-29 09:08 INFO     RoutingTable.py:150 : Earliest update seen: 1203380111, 	 Latest update seen: 1203887478
+Total updates received: 470720, 	 Total number of path changes observed: 8153
+Total number of routing table entries currently in table: 58455
+Reachable addresses of the IPv4 space from current table: 436089131
+10-29 09:08 INFO     Tests.py:23  : [CP6] Tests for checkpoint 6 complete. Verify that your results match the sample output log file.

@@ -1,0 +1,17 @@
+11-21 20:36 INFO     Tests.py:20  : [CP5] Executing tests for checkpoint 5.
+11-21 20:36 INFO     ParseUpdates.py:70  : Time taken to parse all records: 3 second(s)
+11-21 20:36 INFO     ParseUpdates.py:71  : Routes announced: 74851 | Routes withdrawn: 8393
+11-21 20:36 INFO     Tests.py:51  : [CP2] No more updates to process in file: ./data/updates.20080219.0015.bz2
+11-21 20:38 INFO     RoutingTable.py:324 : Earliest update seen: 1203380111, 	 Latest update seen: 1203381004
+Total updates received: 83244, 	 Total number of path changes observed: 1705
+Total number of routing table entries currently in table: 6217
+Reachable addresses of the IPv4 space from current table: 52621619
+11-21 20:42 INFO     RoutingTable.py:324 : Earliest update seen: 1203380111, 	 Latest update seen: 1203381004
+Total updates received: 83244, 	 Total number of path changes observed: 1705
+Total number of routing table entries currently in table: 6217
+Reachable addresses of the IPv4 space from current table: 52621619
+11-21 20:43 INFO     RoutingTable.py:324 : Earliest update seen: 1203380111, 	 Latest update seen: 1203381004
+Total updates received: 83244, 	 Total number of path changes observed: 1705
+Total number of routing table entries currently in table: 5852
+Reachable addresses of the IPv4 space from current table: 52621619
+11-21 20:43 INFO     Tests.py:22  : [CP5] Tests for checkpoint 5 complete. Verify that your results match the sample output log file.
